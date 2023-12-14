@@ -1,0 +1,16 @@
+brew install rust
+brew install zsh
+brew install zsh-autosuggestions
+brew install powerlevel10k
+brew install tmux
+brew install neovim
+brew install fzf
+brew install exa
+brew install bat
+brew install cmatrix
+brew install lolcat
+brew install tldr
+
+# zsh setup
+command -v zsh | sudo tee -a /etc/shells
+sudo chsh -s $(which zsh)
