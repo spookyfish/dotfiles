@@ -14,3 +14,7 @@ brew install tldr
 # zsh setup
 command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s $(which zsh)
+
+# symlink dotfiles (assuming you have ~/dotfiles cloned)
+ln -s ~/dotfiles/.zshrc ~
+ln -s ~/dotfiles/.tmux.conf ~

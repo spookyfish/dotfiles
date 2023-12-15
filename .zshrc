@@ -32,7 +32,7 @@ alias cp='cp -i'
 alias ls='exa'
 alias ll='ls -l'
 alias la='ls -la'
-alias tree='exa -tree'
+alias tree='exa --tree'
 alias vim='nvim'
 alias cat='bat'
 
@@ -41,7 +41,8 @@ alias cat='bat'
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Themes
-echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /home/linuxbrew/.linuxbrew/share/powerlevel10k/powerlevel10k.zsh-theme
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
