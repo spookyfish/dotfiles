@@ -29,10 +29,10 @@ setopt no_flow_control
 
 # Aliases
 alias cp='cp -i'
-alias ls='exa'
+alias ls='eza'
 alias ll='ls -l'
 alias la='ls -la'
-alias tree='exa --tree'
+alias tree='eza --tree'
 alias vim='nvim'
 alias cat='bat'
 
