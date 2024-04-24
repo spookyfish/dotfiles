@@ -16,6 +16,7 @@ brew install stow
 # zsh setup
 command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s $(which zsh)
+sudo usermod --shell $(which zsh) $(whoami)
 
 # symlink dotfiles (assuming you have ~/dotfiles cloned)
 ln -s ~/dotfiles/.zshrc ~
@@ -23,6 +24,15 @@ ln -s ~/dotfiles/.tmux.conf ~
 ## Updated version uses stow
 cd ~/dotfiles
 stow zsh tmux
+
+# fonts
+git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
+cd nerd-fonts
+## list https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts
+git sparse-checkout add patched-fonts/Hack
+./install.sh Hack
+## list fonts
+fc-list
 
 
 # github
