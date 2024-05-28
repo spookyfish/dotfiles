@@ -12,6 +12,8 @@ brew install cmatrix
 brew install lolcat
 brew install tldr
 brew install stow
+brew install lazygit
+brew install lazydocker
 
 # zsh setup
 command -v zsh | sudo tee -a /etc/shells
