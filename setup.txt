@@ -1,4 +1,5 @@
 brew install rust
+brew install rust-analyzer
 brew install zsh
 brew install zsh-autosuggestions
 brew install powerlevel10k
@@ -12,6 +13,7 @@ brew install cmatrix
 brew install lolcat
 brew install tldr
 brew install stow
+brew install docker
 
 # zsh setup
 command -v zsh | sudo tee -a /etc/shells
