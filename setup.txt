@@ -17,6 +17,8 @@ brew install docker
 brew install lazygit
 brew install lazydocker
 brew install bruno
+brew install yazi
+brew install ripgrep
 
 # zsh setup
 command -v zsh | sudo tee -a /etc/shells
