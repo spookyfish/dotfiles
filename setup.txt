@@ -19,6 +19,7 @@ brew install lazydocker
 brew install bruno
 brew install yazi
 brew install ripgrep
+brew install kubernetes-cli
 
 # zsh setup
 command -v zsh | sudo tee -a /etc/shells
