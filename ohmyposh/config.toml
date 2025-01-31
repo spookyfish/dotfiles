@@ -42,6 +42,7 @@ final_space = true
       commit_icon = '@'
       fetch_status = true
       fetch_upstream_icon = true
+      fetch_stash_count = true
       working_color = '#ffff00'
       staging_color = '#00ff00'
 

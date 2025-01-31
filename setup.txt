@@ -19,11 +19,15 @@ brew install yazi
 brew install ripgrep
 brew install kubernetes-cli
 brew install fastfetch
+brew install btop
 
 brew install rust
 brew install rust-enalyzer
 brew install --cask google-cloud-sdk
 brew install --cask slack
+brew install phpstorm
+brew install npm
+brew install nvm
 
 brew install postgresql@17
 brew services start postgresql@17
@@ -49,7 +53,7 @@ ln -s ~/dotfiles/.zshrc ~
 ln -s ~/dotfiles/.tmux.conf ~
 ## Updated version uses stow
 cd ~/dotfiles
-stow zsh tmux
+stow zsh tmux ohmyposh
 
 # fonts
 brew search nerd-font
